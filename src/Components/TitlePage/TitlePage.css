@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:wght@300;400;700&family=Titillium+Web:wght@300;400;600;700;900");
+
+header,
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #2e3033;
+}
+h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 10em;
+  line-height: 150px;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.container {
+  width: 81%;
+  height: 100%;
+  color: #9c968a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+}
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.initials {
+  position: absolute;
+  left: 0px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 4em;
+  color: #9c968a;
+  font-weight: 900;
+}
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 15;
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  border-radius: 50%;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em;
+  color: #69ff96;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+}
+button:hover {
+  border: 2px solid #5cf4ff;
+  color: #fff;
+}
+button:focus {
+  outline: 0;
+}
+
+.main-button {
+  border-radius: 10px;
+  padding: 1em 2em;
+}
+.raise {
+  color: #5cf4ff;
+}
+.raise:hover {
+  -webkit-box-shadow: 0 0.5em 0.5em -0.4em #5cf4ff;
+  box-shadow: 0 0.5em 0.5em -0.4em #5cf4ff;
+  -webkit-transform: translateY(-0.25em);
+  -ms-transform: translateY(-0.25em);
+  transform: translateY(-0.25em);
+  color: #5cf4ff;
+  cursor: pointer;
+}
+.scrolled {
+  /*transition: color 100ms linear;*/
+  color: #2e3033;
+}
+.scrolled:hover {
+  -webkit-box-shadow: 0 0.5em 0.5em -0.4em #2e3033;
+  box-shadow: 0 0.5em 0.5em -0.4em #2e3033;
+  -webkit-transform: translateY(-0.25em);
+  -ms-transform: translateY(-0.25em);
+  transform: translateY(-0.25em);
+  color: #2e3033;
+}
+.main {
+  position: relative;
+  bottom: 10%;
+}
+.mb-icon {
+  font-size: 1.3em;
+  margin-bottom: 10%;
+}
+.welcome {
+  font-size: 2em;
+}
+#name {
+  font-weight: 600;
+  color: #5cf4ff;
+}
+.contact {
+  justify-content: flex-end;
+}
+.last-page {
+  margin-bottom: 10%;
+}
+.thanks {
+  font-size: 2em;
+}
+.contact-info {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 1%;
+  text-align: center;
+  width: 100%;
+  color: #9c968a;
+}
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 6em;
+  }
+  .title-name {
+    line-height: 9vh;
+  }
+  .contact {
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+  }
+  .thanks {
+    font-size: 5vw;
+  }
+  .footnote {
+    margin: 50px 0 100px 0;
+    font-size: 5em;
+    line-height: 70px;
+  }
+  .main-button {
+    padding: 1em 1.5em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header,
+  footer {
+    min-width: 100vw;
+  }
+  .title-name {
+    line-height: 7vh;
+  }
+
+  .initials {
+    font-size: 3em;
+  }
+  .welcome {
+    font-size: 1.5em;
+  }
+  h1 {
+    font-size: 3.7em;
+    line-height: 50px;
+  }
+  .contact-info {
+    font-size: 3vw;
+  }
+}
