@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../../../src/MarcosHinojosResume.pdf";
+import Resume from "../../../src/MJBH-Resume.pdf";
 // Enter 'title' or 'contact' for which button
 
 export const linkedInTitle = () => (
