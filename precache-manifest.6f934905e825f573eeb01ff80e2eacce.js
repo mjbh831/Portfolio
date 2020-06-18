@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f5f64b4d04049412e68ea25145afb4b",
+    "revision": "bf6d7ce8ab882f62e93b5c16a1a38976",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "4f313be2d0fdba5a7e5a",
+    "revision": "d8ed601d982278055f8e",
     "url": "/Portfolio/static/css/main.0ce4c4fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.bbaf672f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4f313be2d0fdba5a7e5a",
-    "url": "/Portfolio/static/js/main.656149df.chunk.js"
+    "revision": "d8ed601d982278055f8e",
+    "url": "/Portfolio/static/js/main.18468003.chunk.js"
   },
   {
     "revision": "bf904ee637eb89ecd0df",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/FaceAppTablet.0a3b10e8.png"
   },
   {
-    "revision": "b247fdcadf37f5ff0f27ce8322e41912",
-    "url": "/Portfolio/static/media/MarcosHinojosResume.b247fdca.pdf"
+    "revision": "ed46d576783b223567994e9490afb361",
+    "url": "/Portfolio/static/media/MJBH-Resume.ed46d576.pdf"
   },
   {
     "revision": "ebffa5b4ffc7e59c05bc8dd6756769af",
